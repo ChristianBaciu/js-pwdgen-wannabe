@@ -1,6 +1,9 @@
-let nomeUtente = prompt ('Dammi il tuo nome', "Mario");
-let cognomeUtente = prompt ('Dammi il tuo cognome', "Rossi");
-let colorePreferito = prompt ('Dammi il tuo colore', "blu");
-let numeroPreferito = prompt ('Dammi il tuo numero', "17");
+let nomeUtente = prompt ('Dammi il tuo nome', "Christian");
+let cognomeUtente = prompt ('Dammi il tuo cognome', "Baciu");
+let coloreUtente = prompt ('Dammi il tuo colore', "nero");
+let numeroUtente = prompt ('Dammi il tuo numero', "31");
 
-console.log (nomeUtente , cognomeUtente , colorePreferito , numeroPreferito);
+console.log (nomeUtente , cognomeUtente , coloreUtente , numeroUtente);
+
+
+document.writeln(` <p> <strong>La tua password è:</strong>  ${ nomeUtente + cognomeUtente + coloreUtente + numeroUtente }</p>`)
